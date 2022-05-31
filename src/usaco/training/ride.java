@@ -1,3 +1,5 @@
+package usaco.training;
+
 import java.io.*;
 import java.util.StringTokenizer;
 /*
@@ -36,8 +38,10 @@ public class ride {
         // System.out.println("s2="+ s2 + ",sum2=" + sum2 + ",mod2="+ mod2);
 
         if (mod1 == mod2) {
+        	System.out.println("GO");
             out.println("GO");
         } else {
+        	System.out.println("STAY");
             out.println("STAY");
         }
         out.close();// close the output file
